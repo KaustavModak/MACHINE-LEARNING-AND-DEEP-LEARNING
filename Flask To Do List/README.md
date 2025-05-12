@@ -28,22 +28,22 @@ pip install Flask
 By default, the server will run at:
 http://127.0.0.1:5000/
 
-##📬 API Endpoints
-###1. GET all items
+## 📬 API Endpoints
+### 1. GET all items
 URL: /items
 
 Method: GET
 
 Response: List of all to-do items.
 
-###2. GET item by ID
+### 2. GET item by ID
 URL: /items/<id>
 
 Method: GET
 
 Response: A specific item or error message.
 
-###3. POST a new item
+### 3. POST a new item
 URL: /items
 
 Method: POST
@@ -57,7 +57,7 @@ Body: JSON
 ``
 Response: Updated list of items.
 
-###4. PUT (update) an item
+### 4. PUT (update) an item
 URL: ``/items/<id>``
 
 Method: PUT
@@ -72,14 +72,14 @@ json
 }``
 Response: Updated item.
 
-###5. DELETE an item
+### 5. DELETE an item
 URL: ``/items/<id>``
 
 Method: DELETE
 
 Response: Message confirming deletion.
 
-##🧪 Testing with Postman
+## 🧪 Testing with Postman
 You can use Postman to test all API routes:
 
 Open Postman.
@@ -92,7 +92,7 @@ For POST/PUT, switch to the Body tab > raw > JSON, and provide the data.
 
 Hit Send to see the result.
 
-##📌 Notes
+## 📌 Notes
 This app stores data in memory; all changes will be lost once the server restarts.
 
 For persistent storage, consider using a database like SQLite, PostgreSQL, or MongoDB.
