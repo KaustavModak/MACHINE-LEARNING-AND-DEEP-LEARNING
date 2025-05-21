@@ -123,6 +123,5 @@ Dataset © Sentiment140 by Go, Alec, Richa Bhayani, and Lei Huang.
 
 ## 🙌 Acknowledgements
 
-- [Sentiment140](http://help.sentiment140.com/)
 - Scikit-learn Team
 - NLTK & SpaCy Contributors
